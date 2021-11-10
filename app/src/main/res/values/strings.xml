@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">QrReader</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!-- Strings related to login -->
+    <string name="prompt_rut">Rut</string>
+    <string name="prompt_password">Código Operación</string>
+    <string name="action_sign_in">Ingresar</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">El verifId es invalido</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_introduccion">Introduccion</string>
+    <string name="action_settings">Configuración</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_leer_qr">LeerQR</string>
+    <string name="ok">OK</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+    <string name="permission_camera_rationale">Es necesario tener acceso a la camara para leer código de barra</string>
+    <string name="title_activity_info_verificador">InfoVerificador</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mensaje_splash">Bienvenido a Vfy</string>
+    <string name="mensaje_lo_siento">Lo sentimos pero esta verificación fué tomada por otro usuario</string>
+    <string name="pedirfoto">Toma una foto desde el frontis de tu domicilio, procura que se vea muy clara la enumeración</string>
+    <string name="pedirfotoSub1">Frontis de tu casa o edificio</string>
+    <string name="pedirfotoSub2">Puerta de entrada</string>
+
+    <string name="mensaje_fin">Enviado exitosamente</string>
+    <string name="mensaje_fin_sub">Muchas gracias</string>
+    <string name="fire">Fuego</string>
+    <string name="cancel">Cancelar</string>
+
+</resources>

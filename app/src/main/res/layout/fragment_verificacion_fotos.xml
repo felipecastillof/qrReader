@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/amarillo_fondo"
+    tools:context=".main.view.MainFragment">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_height="match_parent"
+            android:paddingTop="40dp"
+            android:paddingBottom="40dp"
+            android:background="@color/amarillo_fondo_interno"
+            android:gravity="center"
+            android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_margin="20dp"
+                android:layout_height="0dp"
+                android:layout_weight="3"
+                android:paddingTop="40dp"
+                android:paddingBottom="40dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:gravity="center"
+                        android:textColor="@color/negro"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:text="@string/pedirfoto"/>
+
+                    <ImageButton
+                        android:id="@+id/btnFotoCalle"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:scaleType="fitXY"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:visibility="gone"
+                        android:background="@drawable/img_foto"
+                        />
+
+                    <TextView
+                        android:id="@+id/txtFotoCalle"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:textColor="@color/negro"
+                        android:textSize="16sp"
+                        android:visibility="gone"
+                        android:text="Foto desde la calle"/>
+
+                    <ImageButton
+                        android:id="@+id/btnFotoCondominio"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:scaleType="fitXY"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:visibility="gone"
+                        android:background="@drawable/img_foto"
+                        />
+
+                    <TextView
+                        android:id="@+id/txtFotoCondominio"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:textColor="@color/negro"
+                        android:textSize="16sp"
+                        android:visibility="gone"
+                        android:text="Foto de entrada a tu condominio"/>
+
+                    <ImageButton
+                        android:id="@+id/btnFotoEntrada"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:scaleType="fitXY"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:visibility="gone"
+                        android:background="@drawable/img_foto"
+                        />
+
+                    <TextView
+                        android:id="@+id/txtFotoEntrada"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:textColor="@color/negro"
+                        android:textSize="16sp"
+                        android:visibility="gone"
+                        android:text="Foto de entrada de tu casa"/>
+
+
+                    <ImageButton
+                        android:id="@+id/btnFotoInterior"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:scaleType="fitXY"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:visibility="gone"
+                        android:background="@drawable/img_foto"
+                        />
+
+                    <TextView
+                        android:id="@+id/txtFotoInterior"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:textColor="@color/negro"
+                        android:textSize="16sp"
+                        android:visibility="gone"
+                        android:text="Foto de interior de tu casa"/>
+
+
+                    <ImageButton
+                        android:id="@+id/btnFotoPanoramica"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:scaleType="fitXY"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:visibility="gone"
+                        android:background="@drawable/img_foto"
+                        />
+
+                    <TextView
+                        android:id="@+id/txtFotoPanoramica"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:textColor="@color/negro"
+                        android:textSize="16sp"
+                        android:visibility="gone"
+                        android:text="Foto panorámica del interior de tu casa"/>
+
+
+
+                    <ImageButton
+                        android:id="@+id/btnFotoCuenta1"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:scaleType="fitXY"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:visibility="gone"
+                        android:background="@drawable/img_foto"
+                        />
+
+                    <TextView
+                        android:id="@+id/txtFotoCuenta1"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:textColor="@color/negro"
+                        android:textSize="16sp"
+                        android:visibility="gone"
+                        android:text="Foto de una cuenta con tu nombre"/>
+
+
+
+                    <ImageButton
+                        android:id="@+id/btnFotoCuenta2"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:scaleType="fitXY"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:visibility="gone"
+                        android:background="@drawable/img_foto"
+                        />
+
+                    <TextView
+                        android:id="@+id/txtFotoCuenta2"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:textColor="@color/negro"
+                        android:textSize="16sp"
+                        android:visibility="gone"
+                        android:text="Foto de una cuenta con tu nombre"/>
+
+
+                    <ImageButton
+                        android:id="@+id/btnFotoPersonalizada"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_width="300dp"
+                        android:layout_height="200dp"
+                        android:scaleType="fitXY"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:visibility="gone"
+                        android:background="@drawable/img_foto"
+                        />
+
+                    <TextView
+                        android:id="@+id/txtFotoPersonalizada"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                        android:textColor="@color/negro"
+                        android:textSize="16sp"
+                        android:visibility="gone"
+                        android:text="Mensaje personalizado"/>
+
+                    <Button
+                        android:id="@+id/btnEnviar"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:text="Finalizar verificación"
+                        android:textColor="@color/blanco"
+
+                        android:background="@drawable/fondo_boton"
+                        android:textAllCaps="false"
+                        android:textStyle="bold"  />
+
+
+
+            </LinearLayout>
+</ScrollView>
+
+</LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "340059963568",
+    "firebase_url": "https://classdrivehome.firebaseio.com",
+    "project_id": "classdrivehome",
+    "storage_bucket": "classdrivehome.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340059963568:android:f77699161651b7b939fb75",
+        "android_client_info": {
+          "package_name": "cl.felipecastillof.qrreader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "340059963568-pnih352t9a6lkqg183lpd9j47mmj2cdr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2WjDHFaoGiGghpct6NNcq3MKIyQTidzQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "340059963568-pnih352t9a6lkqg183lpd9j47mmj2cdr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
